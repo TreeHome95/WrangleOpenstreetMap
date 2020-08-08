@@ -5,7 +5,7 @@ font-family: Times New Roman, serif;
 }
 </style>
 
-<h1> Brooklyn OpenstreetMap Case Study</h1>
+<h1>OpenstreetMap Case Study</h1>
 
 For my case study, I have chosen Brooklyn, NY as my area of choice. <br>
 
