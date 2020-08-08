@@ -260,7 +260,7 @@ bicycle_parking,183
 
 ```
 
-Bicycle parking is the most popular amnety in this dataset which i find surprising. It takes up %25.99 of the amneties. 
+Bicycle parking is the most popular amnety in this dataset, tt takes up %25.99 of the amneties. 
 
 <h2> # of places of worship</h2>
 
@@ -294,7 +294,7 @@ muslim|2
 shinto|1
 ```
 
-<p>There are 4 types of religions with christianity being the most popular taking up %84.03 of its category. I also find there being a shinto shrine in Brooklyn interesting.</p>
+<p>There are 4 types of religions and Christianity is %84.03 of the category making it the most popular. It is important to consider that this dataset may not be accurate to the actual amount of location of places of worship.</p>
 
 <h2># of resturants</h2>
 
@@ -336,7 +336,7 @@ american|1
 
 ``` 
 
-Mexican cuisine are the most popular. Another interesting thing to note is that there are a lot of resturants where only 1 of its type are in the set. To conclude I would like to say that I think this was an interesting dataset. There were things I was able to clean up and studying it led me to find new things like there being a shinto shrine in Brooklyn and get some statistics. It should be noted that this may not be Brooklyn as a whole but I do like that there has been data inputted by many people.
+Mexican cuisine is the most popular. There are a lot of resturants where only 1 of its type are in the set, again this is due to lack of user input in the area, there is definitely more than the amount of restaraunts specified in the output above. To conclude I would like to say that I think this was an interesting dataset. There were things I was able to clean up and studying it led me to find new things like there being a shinto shrine in Brooklyn and get some statistics. It should be noted that this may not be Brooklyn as a whole but I do appreciate the effort put out by the community to create this.
 
 <h2> # of Unique Contributing Users</h2>
 
@@ -351,7 +351,7 @@ FROM (SELECT uid FROM nodes UNION ALL SELECT uid FROM ways) e;
 ```
 <h2> Feedback </h2>
 
-<p>One way to improve this dataset would be to add more information to the streets. Information on if there's parking allowed on a certain street or not. It is very rough to find parking in Brooklyn as there are some areas you either cannot park in or can park in within a limited time frame. In order to implement there would need to be knowledge of cross streets to target exactly where a person would be able to park and link it to a unique ID. This would be beneficial to tourist and people wanting to find good parking within Brooklyn. A downside I can see is that it would add complexity to the data and there would need to be an update should parking laws change in the future.</p>
+<p>One way to improve this dataset would be to add more information to the streets. Information on if there's parking allowed on a certain street or not. It is difficult to find parking in Brooklyn as there are some areas you either cannot park in or can within a limited time frame. In order to implement there would need to be knowledge of cross streets to target exactly where a person would be able to park and link it to a unique ID. This would be beneficial to tourist and people wanting to find good parking within Brooklyn. A downside I can see is that it would add complexity to the data and there would need to be an update should parking laws change in the future.</p>
 
 
 
