@@ -1,9 +1,5 @@
 
-<style>
-.text_cell_render {
-font-family: Times New Roman, serif;
-}
-</style>
+
 
 <h1>OpenstreetMap Case Study</h1>
 
